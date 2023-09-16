@@ -1,0 +1,234 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #313131;
+}
+
+/* Estilos para la barra de navegación */
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 15px;
+  text-align: center;
+}
+
+.menu li {
+  display: inline;
+  margin-right: 60px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #ede9e9f7;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  color: #f03535e8;
+}
+
+/* Estilos para el banner principal */
+.banner {
+  height: 340px;
+  background-image: url("img/fondo-vector-monocromo-blanco-abstracto-folleto-diseno-folleto-sitio-web-fondo-pantalla-blanco-geometrico-pagina-inicio-presentacion-certificado_181182-33904.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #f03535e8;
+  padding: 20px 0;
+}
+
+.banner h1 {
+  font-size: 120px;
+  text-align: center center;
+}
+
+/* Estilos para el contenido principal */
+.contenido h2 h3  {
+    background-color: rgb(167, 157, 157);
+    padding: 20px;
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    text-align: justify;
+}
+/* Estilos para el pie de página */
+footer {
+  background-color: #333;
+  color: #dfdcdc;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Estilos para las redes sociales   en el pie de página */
+.redes-sociales {
+  margin-top: 10px;
+ text-align: center;
+}
+
+.redes-sociales a {
+  margin-right: 10px;
+}
+
+.foto1 img{
+  
+  text-align: center;
+  border-radius: 20px;
+ 
+}
+.foto img {
+  border-radius: 20px;
+  
+}
+
+section {
+  padding: 30px;
+  background-color: #ffffffed;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  
+}
+
+.contenedor img { 
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  padding: 15PX;
+  
+}
+.contenedor  {
+  display: flex;
+  margin-top: 30px;
+}
+.producto2{
+  margin-left: 25px;
+  align-items: center;
+}
+.centrar{
+  text-align: center;
+}
+.producto3{
+  margin-left: 25px;
+}
+
+/* Estilos generales del formulario */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 45px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los labels */
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Estilo para los botones */
+button[type="submit"],
+button[type="reset"] {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+  background-color: #414141;
+}
+
+/* Estilo para el título */
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Estilo para el párrafo de introducción */
+p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+
+/* Estilos para el footer */
+footer {
+  background-color: #333; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilos para la sección de ubicación */
+.ubicacion {
+  margin-bottom: 20px;
+}
+
+.ubicacion h2 {
+  font-size: 24px;
+  color: #666;
+  
+}
+
+.ubicacion p {
+  font-size: 16px;
+  margin: 5px 0;
+  
+}
+/* Estilo para el contenedor de las redes sociales */
+.redes-sociales {
+  display: flex; 
+  justify-content: center; 
+  margin-top: 20px; 
+}
+
+/* Estilo para los enlaces de redes sociales */
+.redes-sociales a {
+  margin: 0 10px; 
+  text-decoration: none; 
+}
+
+/* Estilo para las imágenes de redes sociales */
+.redes-sociales img {
+  width: 35px; 
+  height: 35px; 
+  border-radius: 50%; 
+  transition: transform 0.2s; 
+}
+
+/* Efecto de escala al pasar el cursor sobre las imágenes */
+.redes-sociales img:hover {
+  transform: scale(1.1); 
+}
+
+
+
+
+
+
+
